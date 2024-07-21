@@ -1,141 +1,41 @@
-* {
-    margin: 0;
-    padding: 0;
+
+.about-us {
+    background-color: #f8f9fa;
 }
 
-body {
-    background-image: url("https://indonesiyes.com/wp-content/uploads/2022/09/PT-KAI-5.jpg");
-    background-size: cover;
-    font-family: Arial, sans-serif; /* Ganti dengan font yang Anda inginkan */
+.navbar-brand .logo {
+    width: 50px; /* Adjust the size as necessary */
+    height: auto;
+    position: absolute;
+    top: 17px;
+    left: 15px;
 }
 
-.container {
-    width: 70%;
-    margin: auto;
-    min-height: 100vh;
-    background: white;
-    padding: 20px; /* Tambahkan padding untuk memberi ruang di sekitar konten */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan untuk kontainer */
+.login-form {
+    width: 340px;
+    margin: 50px auto;
+    font-size: 15px;
 }
 
-#header {
-    background: #eb6a28;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
-    padding: 40px 0; /* Ubah padding agar lebih sederhana */
-    text-align: center; /* Pusatkan teks */
-    
-    
+.login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
 }
 
-#header h1 {
-    font-size: 50px;
-    margin-bottom: 10px; /* Beri ruang bawah */
+.login-form h2 {
+    margin: 0 0 15px;
+    text-align: center;
 }
 
-#header p {
-    color: black;
+.form-control,
+.btn {
+    min-height: 38px;
+    border-radius: 2px;
 }
 
-#menu {
-    padding: 20px 0; /* Ubah padding untuk simpel */
-    background: #2c2a6b;
-    display: flex;
-    justify-content: center;
-    border-bottom: 20px;
-}
-
-#menu ul {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-}
-
-#menu ul a {
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-}
-
-#menu ul a:hover {
-    padding-bottom: 5px;
-    border-bottom: 2px solid white;
-}
-
-#content {
-    display: flex;
-    gap: 10px;
-    align-items: flex-start; /* Agar konten align di atas */
-}
-
-#content-left {
-    flex: 1; /* Agar konten left mengambil ruang tersisa */
-    padding: 10px;
-    box-shadow: 4px 6px 5px #888888;
-}
-
-#content-left .judul {
-    background: #eb6a28;
-    color: white;
-    padding: 10px 20px; /* Ubah padding agar lebih sederhana */
-    margin-bottom: 20px; /* Beri ruang bawah */
-    border-radius: 10px;
-}
-
-#content-left iframe {
-    margin-right: 20px;
-}
-
-#content p {
-    line-height: 1.6;
-    text-align: justify;
-}
-
-#content-right {
-    width: 30%;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    position: relative; /* Agar bisa mengatur posisi absolut pada anak elemen */
-}
-
-#content-right img {
-    max-width: 100%; /* Agar gambar tidak melebihi lebar konten right */
-    height: auto; /* Agar gambar proporsional */
-    display: block; /* Agar gambar tepi ke tepi */
-}
-
-#sosmed {
-    display: flex;
-    gap: 20px;
-    margin-top: 20px; /* Tambahkan margin atas */
-}
-
-#sosmed img {
-    width: 30px;
-}
-
-#footer {
-    margin-top: 20px;
-    padding: 20px 0;
-    background: #2c2a6b;
-    color: white;
-    text-align: center; /* Pusatkan teks */
-    border-radius: 10px;
-}
-body {
-    font-family: 'Poppins', sans-serif;
-}
-
-h1, h2, h3 {
-    font-family: 'Poppins', sans-serif;
-}
-
-p {
-    font-family: 'Poppins', sans-serif;
+.btn {
+    font-size: 15px;
+    font-weight: bold;
 }
